@@ -8,7 +8,30 @@
 </head>
 <body>
 <div class="container">
-    <h1>Municipios</h1>
+    <h1>Linea Telefónica</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="<?php echo base_url ('/');?>">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ci Telefonia
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="<?php echo base_url ('ver_clientes');?>">Clientes</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url ('ver_lineatelefonica');?>">Linea Telefónica</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url ('ver_planes');?>">Planes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
     <table class="table table-border table-striped">
         <thead>
             <tr>
