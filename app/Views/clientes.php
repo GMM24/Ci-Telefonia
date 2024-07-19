@@ -34,14 +34,14 @@
     </nav>
     <table class="table table-border table-striped">
         <thead>
+          <a href="nuevo_clientes" class="btn btn-primary">Nuevo Cliente</a>
             <tr>
                 <th>Id de Cliente</th>
-                <th>Apellido</th>
-                <th>Nombre</th>
+                <th>Apellido y Nombre</th>
                 <th>Correo Electronico</th>
                 <th>Calle o Avenida</th>
-                <th>Numero de Casa </th>
-                <th>Zona</th>
+                <th>Numero de Casa y Zona </th>
+         
                 
             </tr>
         </thead>
@@ -50,15 +50,19 @@
                 foreach($datos as $clientes):
                     
             ?>
+
             <tr>
                 <td><?php echo $clientes['cliente_id'];?></td>
-                <td><?php echo $clientes['apellido'];?></td>
-                <td><?php echo $clientes['nombre'];?></td>
+                <td><?php echo $clientes['apellido'].", ".$clientes['nombre'];?></td>
                 <td><?php echo $clientes['correo_electronico'];?></td>
                 <td><?php echo $clientes['calle_avenida'];?></td>
-                <td><?php echo $clientes['no_casa'];?></td>
-                <td><?php echo $clientes['zona'];?></td> 
+                <td><?php echo $clientes['no_casa']." zona ". $clientes['zona'];?></td>
+                <td>
+                  <a href="actualizar_cliente" class="btn btn-info">Actualizar</a>
+                  <a href="eliminar_cliente/<?php echo $clientes['cliente_id']?>" class="btn btn-danger" >Eliminar</a>
+                </td>
             </tr>
+           
             <?php 
                 endforeach;
             ?>

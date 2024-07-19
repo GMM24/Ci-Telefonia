@@ -45,4 +45,11 @@ class ClientesController extends BaseController
         echo "Datos Guardados";
         return redirect()->route('clientes');
     }
+    public function eliminarCliente($id=null)
+    {
+        //echo $id;
+        $clientes = new ClientesModel();
+        $clientes->delete(['cliente_id'=>$id]);
+        return redirect()->route('clientes');
+    }
 } 

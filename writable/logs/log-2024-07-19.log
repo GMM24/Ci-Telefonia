@@ -1,0 +1,96 @@
+CRITICAL - 2024-07-19 16:33:41 --> ParseError: syntax error, unexpected token "."
+[Method: GET, Route: ver_clientes]
+in APPPATH\Views\clientes.php on line 56.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\ClientesController.php(12): view('clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:33:42 --> ParseError: syntax error, unexpected token "."
+[Method: GET, Route: ver_clientes]
+in APPPATH\Views\clientes.php on line 56.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\ClientesController.php(12): view('clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:33:55 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: ver_clientes]
+in APPPATH\Views\clientes.php on line 57.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\ClientesController.php(12): view('clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:33:57 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: ver_clientes]
+in APPPATH\Views\clientes.php on line 57.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\ClientesController.php(12): view('clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:07:26 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: ver_lineatelefonica]
+in APPPATH\Models\LineasTelefonoModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2024\\ci_telefonia\\app\\Models\\LineasTelefonoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LineasTelefonoModel')
+ 3 APPPATH\Controllers\LineasTelefonicas.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LineasTelefonoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:07:27 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: ver_lineatelefonica]
+in APPPATH\Models\LineasTelefonoModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2024\\ci_telefonia\\app\\Models\\LineasTelefonoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LineasTelefonoModel')
+ 3 APPPATH\Controllers\LineasTelefonicas.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LineasTelefonoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:07:28 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: ver_lineatelefonica]
+in APPPATH\Models\LineasTelefonoModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2024\\ci_telefonia\\app\\Models\\LineasTelefonoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LineasTelefonoModel')
+ 3 APPPATH\Controllers\LineasTelefonicas.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LineasTelefonoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:07:29 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: ver_lineatelefonica]
+in APPPATH\Models\LineasTelefonoModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2024\\ci_telefonia\\app\\Models\\LineasTelefonoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LineasTelefonoModel')
+ 3 APPPATH\Controllers\LineasTelefonicas.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LineasTelefonoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
