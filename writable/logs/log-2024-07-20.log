@@ -1,0 +1,12 @@
+CRITICAL - 2024-07-20 00:22:53 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: ver_lineatelefonica]
+in APPPATH\Models\LineasTelefonoModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\fs2024\\Ci-Telefonia\\app\\Models\\LineasTelefonoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LineasTelefonoModel')
+ 3 APPPATH\Controllers\LineasTelefonicas.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LineasTelefonoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicas))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Clientes</h1>
 
-        <form action="agregar_cliente" method="post">
+        <form action="agregar_planes" method="post">
             <div class="mb-3">
                 <label for="txtId" class="form-label">Id</label>
                  <input type="text" class="form-control" id="txtId" name="txtId" placeholder="Ingrese Id">

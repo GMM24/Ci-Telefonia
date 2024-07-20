@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Clientes</h1>
 
-        <form action="agregar_cliente" method="post">
+        <form action="agregar_linea" method="post">
             <div class="mb-3">
                 <label for="txtNoTel" class="form-label">Número de Teléfono</label>
                  <input type="text" class="form-control" id="txtNoTel" name="txtNoTel" placeholder="Ingrese ">

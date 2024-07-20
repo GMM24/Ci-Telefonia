@@ -41,7 +41,7 @@ class ClientesController extends BaseController
 
         //creando unn objeto de tipo clientes model
         $clientes = new ClientesModel();
-        $clientes-> insert($datos); //insert to clientes value(...);
+        $clientes->insert($datos); //insert to clientes value(...);
         echo "Datos Guardados";
         return redirect()->route('clientes');
     }
